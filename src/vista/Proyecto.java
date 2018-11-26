@@ -136,29 +136,29 @@ public class Proyecto extends javax.swing.JFrame {
         cbMarcaIzquierdo.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         cbMarcaIzquierdo.setForeground(new java.awt.Color(255, 255, 255));
         cbMarcaIzquierdo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        getContentPane().add(cbMarcaIzquierdo, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 20, 140, -1));
+        getContentPane().add(cbMarcaIzquierdo, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 30, 140, -1));
 
         cbModeloIzquierdo.setBackground(new java.awt.Color(42, 42, 166));
         cbModeloIzquierdo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        getContentPane().add(cbModeloIzquierdo, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 50, 230, -1));
+        getContentPane().add(cbModeloIzquierdo, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 60, 230, -1));
 
         cbMarcaDerecho.setBackground(new java.awt.Color(42, 42, 166));
         cbMarcaDerecho.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         cbMarcaDerecho.setForeground(new java.awt.Color(255, 255, 255));
         cbMarcaDerecho.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        getContentPane().add(cbMarcaDerecho, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 20, 140, -1));
+        getContentPane().add(cbMarcaDerecho, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 30, 140, -1));
 
         cbModeloDerecho.setBackground(new java.awt.Color(42, 42, 166));
         cbModeloDerecho.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        getContentPane().add(cbModeloDerecho, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 50, 240, -1));
+        getContentPane().add(cbModeloDerecho, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 60, 240, -1));
 
         imagenIzquierda.setScale(0.28);
         imagenIzquierda.setUrlImagen("https://bit.ly/2PKE6Ue");
-        getContentPane().add(imagenIzquierda, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 80, -1, 120));
+        getContentPane().add(imagenIzquierda, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 120, 160, 270));
 
         imagenIzquierda1.setScale(0.28);
         imagenIzquierda1.setUrlImagen("https://bit.ly/2PKE6Ue");
-        getContentPane().add(imagenIzquierda1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 80, -1, 120));
+        getContentPane().add(imagenIzquierda1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 120, 160, 270));
 
         jTableDerecho.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -201,7 +201,7 @@ public class Proyecto extends javax.swing.JFrame {
             jTableDerecho.getColumnModel().getColumn(1).setResizable(false);
         }
 
-        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 210, 200, 190));
+        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 170, 200, 190));
 
         jTableIzquierdo.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -244,16 +244,16 @@ public class Proyecto extends javax.swing.JFrame {
             jTableIzquierdo.getColumnModel().getColumn(1).setResizable(false);
         }
 
-        getContentPane().add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 210, 200, 190));
+        getContentPane().add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, 200, 190));
 
         jButtonSalir.setBackground(new java.awt.Color(127, 26, 70));
         jButtonSalir.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         jButtonSalir.setForeground(new java.awt.Color(255, 255, 255));
         jButtonSalir.setText("Salir");
-        getContentPane().add(jButtonSalir, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 0, -1, -1));
+        getContentPane().add(jButtonSalir, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 10, -1, -1));
 
         imagenFondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/header-bg_v1.jpg"))); // NOI18N
-        getContentPane().add(imagenFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(-160, 0, 790, -1));
+        getContentPane().add(imagenFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(-160, 0, 1000, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
