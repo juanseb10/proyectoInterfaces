@@ -27,23 +27,18 @@ public class VerInformacionIndividual extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        imageView1 = new imagenview.ImageView();
-        imageView2 = new imagenview.ImageView();
-        imageView3 = new imagenview.ImageView();
         jLabelNombreTerminal = new javax.swing.JLabel();
+        imagen = new imageView.ImageView();
         fondo = new javax.swing.JLabel();
 
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        imageView3.setScale(0.5);
-        imageView3.setUrlImagen("https://d2giyh01gjb6fi.cloudfront.net/phone_front/0002/55/thumb_154491_phone_front_medium.jpeg");
-        add(imageView3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 60, 130));
 
         jLabelNombreTerminal.setBackground(new java.awt.Color(153, 153, 153));
         jLabelNombreTerminal.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
         jLabelNombreTerminal.setForeground(new java.awt.Color(255, 255, 255));
         jLabelNombreTerminal.setText("Nombre Terminal");
         add(jLabelNombreTerminal, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 30, 360, 30));
+        add(imagen, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, -1, -1));
 
         fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/B94.jpg"))); // NOI18N
         add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(-320, -40, 840, 520));
@@ -51,9 +46,7 @@ public class VerInformacionIndividual extends javax.swing.JPanel {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel fondo;
-    private imagenview.ImageView imageView1;
-    private imagenview.ImageView imageView2;
-    private imagenview.ImageView imageView3;
+    private imageView.ImageView imagen;
     private javax.swing.JLabel jLabelNombreTerminal;
     // End of variables declaration//GEN-END:variables
 }

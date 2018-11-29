@@ -25,8 +25,6 @@ public class Proyecto extends javax.swing.JFrame {
      */
     public Proyecto() {
         initComponents();
-        imagenIzquierda.setScale(0.28);
-        imagenIzquierda1.setScale(0.28);
 
         //aniadir controlador de botones
         Controlador controlador = new Controlador(this);
@@ -119,13 +117,13 @@ public class Proyecto extends javax.swing.JFrame {
         cbModeloIzquierdo = new javax.swing.JComboBox<>();
         cbMarcaDerecho = new javax.swing.JComboBox<>();
         cbModeloDerecho = new javax.swing.JComboBox<>();
-        imagenIzquierda = new imagenview.ImageView();
-        imagenIzquierda1 = new imagenview.ImageView();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTableDerecho = new javax.swing.JTable();
         jScrollPane3 = new javax.swing.JScrollPane();
         jTableIzquierdo = new javax.swing.JTable();
         jButtonSalir = new javax.swing.JButton();
+        imagenIzquierda = new imageView.ImageView();
+        imagenDerecha = new imageView.ImageView();
         imagenFondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -151,14 +149,6 @@ public class Proyecto extends javax.swing.JFrame {
         cbModeloDerecho.setBackground(new java.awt.Color(42, 42, 166));
         cbModeloDerecho.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(cbModeloDerecho, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 60, 240, -1));
-
-        imagenIzquierda.setScale(0.28);
-        imagenIzquierda.setUrlImagen("https://bit.ly/2PKE6Ue");
-        getContentPane().add(imagenIzquierda, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 120, 160, 270));
-
-        imagenIzquierda1.setScale(0.28);
-        imagenIzquierda1.setUrlImagen("https://bit.ly/2PKE6Ue");
-        getContentPane().add(imagenIzquierda1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 120, 160, 270));
 
         jTableDerecho.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -251,6 +241,8 @@ public class Proyecto extends javax.swing.JFrame {
         jButtonSalir.setForeground(new java.awt.Color(255, 255, 255));
         jButtonSalir.setText("Salir");
         getContentPane().add(jButtonSalir, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 10, -1, -1));
+        getContentPane().add(imagenIzquierda, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 160, -1, -1));
+        getContentPane().add(imagenDerecha, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 160, -1, -1));
 
         imagenFondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/header-bg_v1.jpg"))); // NOI18N
         getContentPane().add(imagenFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(-160, 0, 1000, -1));
@@ -299,9 +291,9 @@ public class Proyecto extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> cbMarcaIzquierdo;
     private javax.swing.JComboBox<String> cbModeloDerecho;
     private javax.swing.JComboBox<String> cbModeloIzquierdo;
+    private imageView.ImageView imagenDerecha;
     private javax.swing.JLabel imagenFondo;
-    private imagenview.ImageView imagenIzquierda;
-    private imagenview.ImageView imagenIzquierda1;
+    private imageView.ImageView imagenIzquierda;
     private javax.swing.JButton jButtonSalir;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
